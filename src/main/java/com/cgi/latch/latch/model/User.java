@@ -1,0 +1,34 @@
+package com.cgi.latch.latch.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "users")
+public class User {
+
+    @Id
+    @Column(name = "firstname")
+    private String firstName;
+
+    @Column(name = "lastname ")
+    private String lastName;
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastnName) {
+        this.lastName = lastnName;
+    }
+}
