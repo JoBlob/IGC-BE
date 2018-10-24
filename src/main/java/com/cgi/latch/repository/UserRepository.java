@@ -1,7 +1,8 @@
-package com.cgi.latch.latch.repository;
+package com.cgi.latch.repository;
 
-import com.cgi.latch.latch.model.User;
 import org.springframework.dao.DataAccessException;
+
+import com.cgi.latch.model.User;
 
 public interface UserRepository {
 

@@ -1,9 +1,11 @@
-package com.cgi.latch.latch.repository.dto;
+package com.cgi.latch.repository.dto;
 
-import com.cgi.latch.latch.model.User;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.cgi.latch.model.User;
+
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @RestController
