@@ -1,15 +1,9 @@
 package com.cgi.latch.dto;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "users")
 public class UserDto {
 
     private String firstName;
-    private String lastName;  
-
+    private String lastName;
 	private int employeeId;
     private String password;
     private String email;
