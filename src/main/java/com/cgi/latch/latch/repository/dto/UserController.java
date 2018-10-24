@@ -14,7 +14,7 @@ public class UserController {
 	public User getUser() {
 		User user = new User();
 		user.setFirstName("Flavien");
-		user.setLastName("Grenier");
+		user.setLastName("Greniers");
 
 		return user;
 	}

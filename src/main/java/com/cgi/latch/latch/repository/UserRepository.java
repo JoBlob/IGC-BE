@@ -1,10 +1,8 @@
 package com.cgi.latch.latch.repository;
 
 import com.cgi.latch.latch.model.User;
-import org.springframework.dao.DataAccessException;
+import org.springframework.data.repository.CrudRepository;
 
-public interface UserRepository {
+public interface UserRepository extends CrudRepository<User, Integer> { }
 
-    void save(User user) throws DataAccessException;
 
-}

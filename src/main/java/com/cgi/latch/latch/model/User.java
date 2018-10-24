@@ -7,13 +7,12 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "users")
-public class User {
+public class User extends BaseEntity{
 
-    @Id
     @Column(name = "firstname")
     private String firstName;
 
-    @Column(name = "lastname ")
+    @Column(name = "lastname")
     private String lastName;
 
     public String getFirstName() {
@@ -28,7 +27,7 @@ public class User {
         return lastName;
     }
 
-    public void setLastName(String lastnName) {
-        this.lastName = lastnName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
