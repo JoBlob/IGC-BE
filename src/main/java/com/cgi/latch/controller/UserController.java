@@ -23,8 +23,7 @@ public class UserController {
 	
 	@RequestMapping(value="/test2", method=RequestMethod.POST)
 	public User getUser(@RequestBody User user) {
-		User testHere = user;
-		
+
 		return user;
 	}
 }
