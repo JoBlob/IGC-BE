@@ -1,4 +1,4 @@
-package com.cgi.latch.repository.dto;
+package com.cgi.latch.controller;
 
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
