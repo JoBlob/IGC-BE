@@ -1,4 +1,4 @@
-package com.cgi.latch.latch.model;
+package com.cgi.latch.dto;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,12 +7,10 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "users")
-public class User extends BaseEntity{
+public class UserDto {
 
-    @Column(name = "firstname")
     private String firstName;
 
-    @Column(name = "lastname")
     private String lastName;
 
     public String getFirstName() {
@@ -27,7 +25,7 @@ public class User extends BaseEntity{
         return lastName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setLastName(String lastnName) {
+        this.lastName = lastnName;
     }
 }

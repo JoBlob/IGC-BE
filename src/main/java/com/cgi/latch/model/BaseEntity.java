@@ -1,4 +1,4 @@
-package com.cgi.latch.latch.model;
+package com.cgi.latch.model;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
